@@ -10,6 +10,18 @@ const questions = [
         message: "whats the name of your project?",
         name: "title",
 
+    }, 
+    {
+        type: "input",
+        message: "whats your description?",
+        name: "description",
+    },
+    {
+        type: "list",
+        message: "what license do you want to use?",
+        name: "license",
+        choices: ["MIT", "License to kill", "No license"]
+
     }
 ];
 
