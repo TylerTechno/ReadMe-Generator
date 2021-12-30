@@ -21,7 +21,21 @@ const questions = [
         message: "what license do you want to use?",
         name: "license",
         choices: ["MIT", "License to kill", "No license"]
-
+    },
+    {
+        type: "input",
+        message: "whats your name?",
+        name: "name",
+    },
+    {
+        type: "input",
+        message: "Whats your github?",
+        name: "github"
+    },
+    {
+        type: "input",
+        message: "whats your email?",
+        name: "email",
     }
 ];
 
